@@ -1,0 +1,34 @@
+/* NavbarVertical.css */
+
+.navbar-vertical {
+    width: 250px; /* Aumentamos el ancho del navbar */
+    height: calc(100vh - 20px); /* Establecemos la altura en función del 100% de la altura de la ventana - un margen de 20px */
+    position: fixed; /* Fijamos la posición para que se mantenga estable */
+    top: 10px; /* Ajustamos la distancia desde la parte superior */
+    left: 10px; /* Ajustamos la distancia desde la izquierda */
+    background-color: #333; /* Color de fondo del navbar */
+    overflow-y: auto; /* Agregamos desplazamiento vertical si el contenido excede la altura */
+    z-index: 1000; /* Aseguramos que el navbar tenga una capa superior */
+  }
+  
+  .navbar-vertical ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-vertical li {
+    border-bottom: 1px solid #555; /* Línea separadora entre elementos */
+  }
+  
+  .navbar-vertical li a {
+    display: block;
+    padding: 15px; /* Aumentamos el relleno para hacer los enlaces más grandes */
+    color: white; /* Color del texto */
+    text-decoration: none;
+  }
+  
+  .navbar-vertical li a:hover {
+    background-color: #555; /* Color de fondo al pasar el mouse */
+  }
+  
